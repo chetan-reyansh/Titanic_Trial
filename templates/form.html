@@ -1,0 +1,97 @@
+<form action="{{ url_for('main') }}" method="POST">
+
+  <div>
+    <label>pclass</label>
+    <input
+      type="text"
+      id="pclass"
+      name="pclass"
+      placeholder="Enter the pclass[1,2,3]"
+    />
+  </div>
+
+  <br />
+
+  <div>
+    <label>age</label>
+    <input
+      type="text"
+      id="age"
+      name="age"
+      placeholder="Enter the Age"
+    />
+  </div>
+  <br />
+  <div>
+    <label>fare</label>
+    <input
+      type="text"
+      id="fare"
+      name="fare"
+      placeholder="Enter the Fare"
+    />
+  </div>
+  <br />
+  <div>
+    <label>adult_male</label>
+    <input
+      type="text"
+      id="adult_male"
+      name="adult_male"
+      placeholder="Enter the Adult_male[0/1]"
+    />
+  </div>
+  <br />
+  <div>
+    <label>alone</label>
+    <input
+      type="text"
+      id="alone"
+      name="alone"
+      placeholder="Was the traveller alone[0/1]?"
+    />
+  </div>
+  <br />
+  <div>
+    <label>sex_female</label>
+    <input
+      type="text"
+      id="sex_female"
+      name="sex_female"
+      placeholder="sex_female[0/1]"
+    />
+  </div>
+  <br />
+  <div>
+    <label>sex_male</label>
+    <input
+      type="text"
+      id="sex_male"
+      name="sex_male"
+      placeholder="sex_male[0/1]"
+    />
+  </div>
+  <br />
+  <div>
+    <label>alive_no</label>
+    <input
+      type="text"
+      id="alive_no"
+      name="alive_no"
+      placeholder="alive_no[0/1]"
+    />
+  </div>
+  <br />
+  <div>
+    <label>alive_yes</label>
+    <input
+      type="text"
+      id="alive_yes"
+      name="alive_yes"
+      placeholder="alive_yes"
+    />
+  </div>
+  <br />
+
+  <button type="submit">Get Prediction</button>
+</form>
